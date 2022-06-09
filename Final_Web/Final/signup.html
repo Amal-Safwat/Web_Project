@@ -1,0 +1,49 @@
+<?php include('includes/header.php') ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <script src="https://kit.fontawesome.com/b1361fb5d5.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/main.css">
+  <title>إنشاء حساب | مصيفنا</title>
+</head>
+
+<body>
+  <div class="signup-container">
+    <div class="inputs">
+      <div class="heading">
+        <h1>إنشاء حساب</h1>
+      </div>
+      <form action="" method="POST">
+        <label for="name">الاسم
+          <i id="i1" class="fas fa-id-card"></i>
+          <input class="input" type="text" name="name" placeholder="الإسم كامل .." />
+        </label>
+        <label for="email">الايميل
+          <i id="i2" class="fas fa-envelope"></i>
+          <input class="input" type="email" name="email" placeholder="البريد الإلكتروني .." />
+        </label>
+        <label for="phone">رقم الهاتف
+          <i id="i3" class="fas fa-phone"></i>
+          <input class="input" type="number" name="phone" placeholder="رقم الهاتف .." />
+        </label>
+        <label for="password">كلمة المرور
+          <i id="i4" class="fas fa-key"></i>
+          <input class="input" type="password" name="password" placeholder="كلمة المرور .." />
+        </label>
+        <label for="repassword">تأكيد كلمة المرور
+          <i id="i5" class="fas fa-key"></i>
+          <input class="input" type="password" name="repassword" placeholder="تأكيد كلمة المرور .." />
+        </label>
+        <div class="button"><input type="submit" class="sub" name="create" id="create" value="إنشاء حساب"> </div>
+      </form>
+    </div>
+
+    <div class="image">
+      <img src="img/beach-2179624_1280.jpg" alt="">
+    </div>
+  </div>
+</body>
+
+</html>
